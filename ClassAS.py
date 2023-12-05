@@ -3,7 +3,7 @@ class nineelevenAS:
         self.fooditemAS=fooditemAS
         self.pricelistAS=pricelistAS
         self.priceAS=0
-        self.pricelistAS()
+        self.__pricelistAS()
         self.totalpriceAS= self.totalpriceAS()
     def __pricelistAS(self):
             if self.fooditemAS =='DryCuredIberianHam':
