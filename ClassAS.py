@@ -7,21 +7,22 @@ class nineelevenAS:
         self.totalpriceAS= self.totalpriceAS()
     def __pricelistAS(self):
             if self.fooditemAS =='DryCuredIberianHam':
-                 self.priceAS is 177.80
+                 self.priceAS == 177.80
             elif self.fooditemAS =="Wagyusteaks":
-                self.priceAS is 450.00
+                self.priceAS == 450.00
             elif self.fooditemAS =="matsutakemushroom":
-                self.priceAS is 272.00
-            elif self.fooditemAS =="kopiluwakcoffe" :
-                self.priceAS is 306.50
+                self.priceAS == 272.00
+            elif self.fooditemAS =="kopiluwakcoffe":
+                self.priceAS == 306.50
             elif self.fooditemAS =="moosecheese":
-                self.priceAS is 487.20
+                self.priceAS == 487.20
             elif self.fooditemAS =="whitetrufles": 
-                self.priceAS is 3600.00
+                self.priceAS == 3600.00
             elif self.fooditemAS =="bluefintuna":
-                self.priceAS is 3603.00
+                self.priceAS == 3603.00
             elif self.fooditemAS=="lebonottepotatoes":
-                self.priceAS is 70.81
-    
+                self.priceAS == 70.81
+            else:
+                self.priceAS= 0.00
     def totalpriceAS(self):
         return self.priceAS*self.pricelistAS
