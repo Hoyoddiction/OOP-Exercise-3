@@ -25,9 +25,11 @@ def listfoodcontent(foodtypeAS):
     
     for listfood in foodtypeAS:
         print(f"Item: {listfood.fooditemAS}")
-        print(f"item ordered: {listfood.pricelistAS}")
+        print(f"item ordered: {listfood.pricelistAS}lbs")
+        
         pricelistAS = "{:.2f}".format(listfood.pricelistAS)
         print(f"Price per pound: ${pricelistAS}")
+        
         totalpriceAS="{:.2f}".format(listfood.totalpriceAS)
         print(f"Price of order: ${totalpriceAS}")
         print(" ")
